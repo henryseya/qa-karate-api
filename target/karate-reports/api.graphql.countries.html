@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"68903cd5-f687-4fdc-a3a8-49ec076d84df",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>api.graphql.countries</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">4</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2026-06-01 09:41:02 a. m.</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:8]"><span>[1:8]</span> <span>Consultar informacion de un pais</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:21]"><span>[2:21]</span> <span>Consultar lista de paises por continente</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:34]"><span>[3:34]</span> <span>Consultar multiples paises con variables GraphQL</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[4:47]"><span>[4:47]</span> <span>Verificar que no existe un pais invalido</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">api/graphql/countries.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">API GraphQL - Consulta de Paises</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:8]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:8]</span>
+                <span class="scenario-name">Consultar informacion de un pais</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>97</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:8]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://countries.trevorblades.com/graphql&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.9">{
+  &quot;query&quot;: &quot;{ country(code: \&quot;ES\&quot;) { name capital currency languages { name } } }&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">92</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.15">09:41:02.307 request:
+1 &gt; POST https://countries.trevorblades.com/graphql
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 82
+1 &gt; Host: countries.trevorblades.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;query&quot;:&quot;{ country(code: \&quot;ES\&quot;) { name capital currency languages { name } } }&quot;}
+
+09:41:02.395 response time in milliseconds: 77
+1 &lt; 200
+1 &lt; Connection: keep-alive
+1 &lt; x-served-by: cache-toj-leto2350079-TOJ, cache-toj-leto2350072-TOJ
+1 &lt; accept-ranges: bytes
+1 &lt; date: Mon, 01 Jun 2026 07:39:26 GMT
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; access-control-max-age: 600
+1 &lt; vary: accept-encoding
+1 &lt; access-control-expose-headers: *
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+1 &lt; access-control-allow-credentials: true
+1 &lt; access-control-allow-methods: POST, GET, HEAD, OPTIONS
+1 &lt; access-control-allow-headers: *
+1 &lt; access-control-allow-origin: *
+1 &lt; x-powered-by: Stellate
+1 &lt; cache-control: public, s-maxage=2628000, stale-while-revalidate=2628000
+1 &lt; age: 96
+1 &lt; x-cache-hits: 3
+1 &lt; x-cache: HIT
+1 &lt; gcdn-cache: HIT
+1 &lt; stellate-rate-limit-budget-remaining: 45
+1 &lt; stellate-rate-limit-rules: &quot;IP limit&quot;;type=&quot;RequestCount&quot;;budget=50;limited=?0;remaining=45;refill=53
+1 &lt; stellate-rate-limit-decision: pass
+1 &lt; stellate-rate-limit-budget-required: 10
+{&quot;data&quot;:{&quot;country&quot;:{&quot;capital&quot;:&quot;Madrid&quot;,&quot;currency&quot;:&quot;EUR&quot;,&quot;languages&quot;:[{&quot;name&quot;:&quot;Spanish&quot;},{&quot;name&quot;:&quot;Basque&quot;},{&quot;name&quot;:&quot;Catalan&quot;},{&quot;name&quot;:&quot;Galician&quot;},{&quot;name&quot;:&quot;Occitan&quot;}],&quot;name&quot;:&quot;Spain&quot;}}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.country.name == &#39;Spain&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.country.capital == &#39;Madrid&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.country.currency == &#39;EUR&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:21]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:21]</span>
+                <span class="scenario-name">Consultar lista de paises por continente</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>107</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:21]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:21]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://countries.trevorblades.com/graphql&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:21]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.22">{
+  &quot;query&quot;: &quot;{ continent(code: \&quot;EU\&quot;) { name countries { code name } } }&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">88</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.28">09:41:02.410 request:
+1 &gt; POST https://countries.trevorblades.com/graphql
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 72
+1 &gt; Host: countries.trevorblades.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;query&quot;:&quot;{ continent(code: \&quot;EU\&quot;) { name countries { code name } } }&quot;}
+
+09:41:02.491 response time in milliseconds: 79
+1 &lt; 200
+1 &lt; Connection: keep-alive
+1 &lt; x-served-by: cache-toj-leto2350057-TOJ, cache-toj-leto2350064-TOJ
+1 &lt; accept-ranges: bytes
+1 &lt; date: Mon, 01 Jun 2026 07:39:27 GMT
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; access-control-max-age: 600
+1 &lt; vary: accept-encoding
+1 &lt; access-control-expose-headers: *
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+1 &lt; access-control-allow-credentials: true
+1 &lt; access-control-allow-methods: POST, GET, HEAD, OPTIONS
+1 &lt; access-control-allow-headers: *
+1 &lt; access-control-allow-origin: *
+1 &lt; x-powered-by: Stellate
+1 &lt; cache-control: public, s-maxage=2628000, stale-while-revalidate=2628000
+1 &lt; age: 95
+1 &lt; x-cache-hits: 3
+1 &lt; x-cache: HIT
+1 &lt; gcdn-cache: HIT
+1 &lt; stellate-rate-limit-budget-remaining: 44
+1 &lt; stellate-rate-limit-rules: &quot;IP limit&quot;;type=&quot;RequestCount&quot;;budget=50;limited=?0;remaining=44;refill=53
+1 &lt; stellate-rate-limit-decision: pass
+1 &lt; stellate-rate-limit-budget-required: 9
+{&quot;data&quot;:{&quot;continent&quot;:{&quot;name&quot;:&quot;Europe&quot;,&quot;countries&quot;:[{&quot;code&quot;:&quot;AD&quot;,&quot;name&quot;:&quot;Andorra&quot;},{&quot;code&quot;:&quot;AL&quot;,&quot;name&quot;:&quot;Albania&quot;},{&quot;code&quot;:&quot;AT&quot;,&quot;name&quot;:&quot;Austria&quot;},{&quot;code&quot;:&quot;AX&quot;,&quot;name&quot;:&quot;Åland&quot;},{&quot;code&quot;:&quot;BA&quot;,&quot;name&quot;:&quot;Bosnia and Herzegovina&quot;},{&quot;code&quot;:&quot;BE&quot;,&quot;name&quot;:&quot;Belgium&quot;},{&quot;code&quot;:&quot;BG&quot;,&quot;name&quot;:&quot;Bulgaria&quot;},{&quot;code&quot;:&quot;BY&quot;,&quot;name&quot;:&quot;Belarus&quot;},{&quot;code&quot;:&quot;CH&quot;,&quot;name&quot;:&quot;Switzerland&quot;},{&quot;code&quot;:&quot;CY&quot;,&quot;name&quot;:&quot;Cyprus&quot;},{&quot;code&quot;:&quot;CZ&quot;,&quot;name&quot;:&quot;Czech Republic&quot;},{&quot;code&quot;:&quot;DE&quot;,&quot;name&quot;:&quot;Germany&quot;},{&quot;code&quot;:&quot;DK&quot;,&quot;name&quot;:&quot;Denmark&quot;},{&quot;code&quot;:&quot;EE&quot;,&quot;name&quot;:&quot;Estonia&quot;},{&quot;code&quot;:&quot;ES&quot;,&quot;name&quot;:&quot;Spain&quot;},{&quot;code&quot;:&quot;FI&quot;,&quot;name&quot;:&quot;Finland&quot;},{&quot;code&quot;:&quot;FO&quot;,&quot;name&quot;:&quot;Faroe Islands&quot;},{&quot;code&quot;:&quot;FR&quot;,&quot;name&quot;:&quot;France&quot;},{&quot;code&quot;:&quot;GB&quot;,&quot;name&quot;:&quot;United Kingdom&quot;},{&quot;code&quot;:&quot;GG&quot;,&quot;name&quot;:&quot;Guernsey&quot;},{&quot;code&quot;:&quot;GI&quot;,&quot;name&quot;:&quot;Gibraltar&quot;},{&quot;code&quot;:&quot;GR&quot;,&quot;name&quot;:&quot;Greece&quot;},{&quot;code&quot;:&quot;HR&quot;,&quot;name&quot;:&quot;Croatia&quot;},{&quot;code&quot;:&quot;HU&quot;,&quot;name&quot;:&quot;Hungary&quot;},{&quot;code&quot;:&quot;IE&quot;,&quot;name&quot;:&quot;Ireland&quot;},{&quot;code&quot;:&quot;IM&quot;,&quot;name&quot;:&quot;Isle of Man&quot;},{&quot;code&quot;:&quot;IS&quot;,&quot;name&quot;:&quot;Iceland&quot;},{&quot;code&quot;:&quot;IT&quot;,&quot;name&quot;:&quot;Italy&quot;},{&quot;code&quot;:&quot;JE&quot;,&quot;name&quot;:&quot;Jersey&quot;},{&quot;code&quot;:&quot;LI&quot;,&quot;name&quot;:&quot;Liechtenstein&quot;},{&quot;code&quot;:&quot;LT&quot;,&quot;name&quot;:&quot;Lithuania&quot;},{&quot;code&quot;:&quot;LU&quot;,&quot;name&quot;:&quot;Luxembourg&quot;},{&quot;code&quot;:&quot;LV&quot;,&quot;name&quot;:&quot;Latvia&quot;},{&quot;code&quot;:&quot;MC&quot;,&quot;name&quot;:&quot;Monaco&quot;},{&quot;code&quot;:&quot;MD&quot;,&quot;name&quot;:&quot;Moldova&quot;},{&quot;code&quot;:&quot;ME&quot;,&quot;name&quot;:&quot;Montenegro&quot;},{&quot;code&quot;:&quot;MK&quot;,&quot;name&quot;:&quot;North Macedonia&quot;},{&quot;code&quot;:&quot;MT&quot;,&quot;name&quot;:&quot;Malta&quot;},{&quot;code&quot;:&quot;NL&quot;,&quot;name&quot;:&quot;Netherlands&quot;},{&quot;code&quot;:&quot;NO&quot;,&quot;name&quot;:&quot;Norway&quot;},{&quot;code&quot;:&quot;PL&quot;,&quot;name&quot;:&quot;Poland&quot;},{&quot;code&quot;:&quot;PT&quot;,&quot;name&quot;:&quot;Portugal&quot;},{&quot;code&quot;:&quot;RO&quot;,&quot;name&quot;:&quot;Romania&quot;},{&quot;code&quot;:&quot;RS&quot;,&quot;name&quot;:&quot;Serbia&quot;},{&quot;code&quot;:&quot;RU&quot;,&quot;name&quot;:&quot;Russia&quot;},{&quot;code&quot;:&quot;SE&quot;,&quot;name&quot;:&quot;Sweden&quot;},{&quot;code&quot;:&quot;SI&quot;,&quot;name&quot;:&quot;Slovenia&quot;},{&quot;code&quot;:&quot;SJ&quot;,&quot;name&quot;:&quot;Svalbard and Jan Mayen&quot;},{&quot;code&quot;:&quot;SK&quot;,&quot;name&quot;:&quot;Slovakia&quot;},{&quot;code&quot;:&quot;SM&quot;,&quot;name&quot;:&quot;San Marino&quot;},{&quot;code&quot;:&quot;UA&quot;,&quot;name&quot;:&quot;Ukraine&quot;},{&quot;code&quot;:&quot;VA&quot;,&quot;name&quot;:&quot;Vatican City&quot;},{&quot;code&quot;:&quot;XK&quot;,&quot;name&quot;:&quot;Kosovo&quot;}]}}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.continent.name == &#39;Europe&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.continent.countries == &#39;#[] #object&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">16</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.continent.countries[0] == { code: &#39;#string&#39;, name: &#39;#string&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:34]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:34]</span>
+                <span class="scenario-name">Consultar multiples paises con variables GraphQL</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>121</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:34]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:34]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://countries.trevorblades.com/graphql&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:34]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.35">{
+  &quot;query&quot;: &quot;query GetCountry($code: ID!) { country(code: $code) { name capital phone } }&quot;,
+  &quot;variables&quot;: { &quot;code&quot;: &quot;US&quot; }
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.42">
+      <div class="step-ref passed">42</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">118</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.42">09:41:02.522 request:
+1 &gt; POST https://countries.trevorblades.com/graphql
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 114
+1 &gt; Host: countries.trevorblades.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;query&quot;:&quot;query GetCountry($code: ID!) { country(code: $code) { name capital phone } }&quot;,&quot;variables&quot;:{&quot;code&quot;:&quot;US&quot;}}
+
+09:41:02.642 response time in milliseconds: 109
+1 &lt; 200
+1 &lt; Connection: keep-alive
+1 &lt; x-served-by: cache-toj-leto2350068-TOJ, cache-toj-leto2350037-TOJ
+1 &lt; accept-ranges: bytes
+1 &lt; date: Mon, 01 Jun 2026 07:39:27 GMT
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; access-control-max-age: 600
+1 &lt; vary: accept-encoding
+1 &lt; access-control-expose-headers: *
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+1 &lt; access-control-allow-credentials: true
+1 &lt; access-control-allow-methods: POST, GET, HEAD, OPTIONS
+1 &lt; access-control-allow-headers: *
+1 &lt; access-control-allow-origin: *
+1 &lt; x-powered-by: Stellate
+1 &lt; cache-control: public, s-maxage=2628000, stale-while-revalidate=2628000
+1 &lt; age: 95
+1 &lt; x-cache-hits: 3
+1 &lt; x-cache: HIT
+1 &lt; gcdn-cache: HIT
+1 &lt; stellate-rate-limit-budget-remaining: 43
+1 &lt; stellate-rate-limit-rules: &quot;IP limit&quot;;type=&quot;RequestCount&quot;;budget=50;limited=?0;remaining=43;refill=53
+1 &lt; stellate-rate-limit-decision: pass
+1 &lt; stellate-rate-limit-budget-required: 7
+{&quot;data&quot;:{&quot;country&quot;:{&quot;capital&quot;:&quot;Washington D.C.&quot;,&quot;phone&quot;:&quot;1&quot;,&quot;name&quot;:&quot;United States&quot;}}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.43">
+      <div class="step-ref passed">43</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.44">
+      <div class="step-ref passed">44</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.country.name == &#39;United States&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.45">
+      <div class="step-ref passed">45</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.country.capital == &#39;Washington D.C.&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4:47]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4:47]</span>
+                <span class="scenario-name">Verificar que no existe un pais invalido</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>134</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4:47]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4:47]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://countries.trevorblades.com/graphql&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:47]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.48">
+      <div class="step-ref passed">48</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.48">{
+  &quot;query&quot;: &quot;{ country(code: \&quot;XX\&quot;) { name } }&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.54">
+      <div class="step-ref passed">54</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">133</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.54">09:41:02.654 request:
+1 &gt; POST https://countries.trevorblades.com/graphql
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 46
+1 &gt; Host: countries.trevorblades.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;query&quot;:&quot;{ country(code: \&quot;XX\&quot;) { name } }&quot;}
+
+09:41:02.775 response time in milliseconds: 120
+1 &lt; 200
+1 &lt; Connection: keep-alive
+1 &lt; x-served-by: cache-toj-leto2350043-TOJ, cache-toj-leto2350043-TOJ
+1 &lt; date: Mon, 01 Jun 2026 07:41:01 GMT
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; access-control-max-age: 600
+1 &lt; vary: accept-encoding
+1 &lt; access-control-expose-headers: *
+1 &lt; access-control-allow-credentials: true
+1 &lt; access-control-allow-methods: POST, GET, HEAD, OPTIONS
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+1 &lt; access-control-allow-headers: *
+1 &lt; access-control-allow-origin: *
+1 &lt; x-powered-by: Stellate
+1 &lt; cache-control: s-maxage=0, no-cache, no-store, must-revalidate
+1 &lt; x-cache-hits: 0
+1 &lt; gcdn-passed-through-response: no-cacheable-data
+1 &lt; x-cache: MISS
+1 &lt; gcdn-cache: PASS
+1 &lt; stellate-rate-limit-budget-remaining: 42
+1 &lt; stellate-rate-limit-rules: &quot;IP limit&quot;;type=&quot;RequestCount&quot;;budget=50;limited=?0;remaining=42;refill=53
+1 &lt; stellate-rate-limit-decision: pass
+1 &lt; stellate-rate-limit-budget-required: 5
+{&quot;data&quot;:{&quot;country&quot;:null}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.55">
+      <div class="step-ref passed">55</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.56">
+      <div class="step-ref passed">56</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.country == null</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
